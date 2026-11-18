@@ -7,6 +7,15 @@
 
 Detected video: 'Caminandes : Llamigos' by Pablo Vazquez, Blender Studio
 
+## Disclosure: AI:W
+
+My changes to this add-on are labelled **AI:W** under the [0rwx framework](https://0rwx.com/): AI writes the code and I read it.
+
+*   The code I add to this fork is written by an AI model (Claude), not by hand.
+*   I decide what gets built, read the changes, and test them in my own editing work in Blender before they are committed.
+*   The label covers my changes only. The original add-on is [Detect Shots and Split Strips](https://github.com/tin2tin/Shot_Detection) by tin2tin.
+*   I test on Windows in Blender 5.3. Expect bugs, and save your project before trying it.
+
 ## Usage
 When installed, the operator, "Detect Shots & Split Strips", is exposed in the bottom of the Strip Menu.
 The active strip with white outline will be used for detection, and all selected strips will be split at the same points.
