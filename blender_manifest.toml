@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+
+id = "shot_detection"
+version = "2.0.0"
+name = "Shot Detection"
+tagline = "Find the cuts in movie strips and split them"
+maintainer = "Paul Cameron"
+type = "add-on"
+
+website = "https://github.com/paul-s-cameron/Shot-Detection"
+
+tags = ["Sequencer"]
+
+blender_version_min = "5.2.0"
+
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+
+[permissions]
+network = "Download the scene detection libraries"
+files = "Read media and proxies, write libraries and score caches"
